@@ -12,4 +12,4 @@ You can do the following operations:
   <li>Withdrawl</li>
   <li>Check actual balance</li>
 </ul>
-<p>To access the project click <a href='https://to-do-list-js-dusky.vercel.app/'>here</a> </p>
+<p>To access the project click <a href='https://bank-simulator-six.vercel.app/'>here</a> </p>
