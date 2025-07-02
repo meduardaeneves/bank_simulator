@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Simulator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href='css/styles.css'>   
+</head>
+<body>
+    <h1>BANK ACCOUNT SIMULADOR</h1>
+    <div id="bank-screen">  
+        <h2>Depoist and Withdrawl Operations</h2> 
+        <div id='balance'>
+            <button type="submit" class='btn-balance'>Bank Balance</button>
+        </div>
+        <div id='withdraw-deposit'>
+            <input type='text' name="insert-in-balance" id='insert-in-balance' placeholder="Value to Withdraw / Deposit">
+            <div id="btn-withdraw-deposit">
+                <button type="submit" class='btn-withdrawl'>Withdrawl</button>
+                <button type="submit" class='btn-deposit'>Deposit</button>
+            </div>
+        </div>
+        <div id="account-status">
+            <p id="status-text">Click on a button to update the bank status.</p>
+        </div>
+    </div>
+    <p id='repository-link'><a href='https://github.com/meduardaeneves/bank_simulator'>Here</a> to access GitHub repository with raw files</p>
+    <script src='js/scripts.js' defer></script> 
+</body>
+</html>
