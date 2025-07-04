@@ -7,7 +7,7 @@ class BankAccount {
         let valueText = document.querySelector("#insert-in-balance");
         let valueNumber = Number(valueText.value);
 
-        if (!isNaN(valueNumber) && valueText.value.trim() !== "") {
+        if (!isNaN(valueNumber) && valueText.value.trim() !== "" && (valueNumber > 0)) {
             return [true, valueNumber]
 
         } else {
